@@ -1,0 +1,63 @@
+body {
+    display: block;
+    line-height: 20px;
+    padding: 10px;
+    position: absolute;
+    margin-left: 25%;
+}
+
+section {
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+header {
+    font-size: 1.65em;
+    margin: 5%;
+}
+
+p {
+    margin-left: 10%;
+}
+
+code {
+    display: block;
+    margin-left: 0;
+    overflow: wrap;
+    background-color: GhostWhite;
+    border-radius: 7px;
+    padding: 12px;
+}
+
+a {
+    margin: 8%;
+}
+
+#navbar {
+    height: 70%;
+    width: 25%;
+    border-right: 3px solid #a3a0a0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 100%;
+    padding: 0;
+}
+
+nav>ul>li {
+    border-top: 2px solid #8f8f8f;
+    height: 7%;
+    margin: 10px;
+    width: 100%;
+}
